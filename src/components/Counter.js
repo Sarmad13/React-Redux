@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import store from "../Store";
 import { useDispatch } from "react-redux";
 import React from "react";
-import { counterActions } from "../Store/index";
+import { counterActions } from "../Store/counter";
 
 const Counter = () => {
   const dispatch = useDispatch();
